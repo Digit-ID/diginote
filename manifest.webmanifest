@@ -1,0 +1,16 @@
+{
+  "name": "DigiNote",
+  "short_name": "DigiNote",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F5F7FA",
+  "theme_color": "#1F6FEB",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
