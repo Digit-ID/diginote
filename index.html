@@ -34,6 +34,7 @@ try{ new MutationObserver(function(){ _ensure(); }).observe(document.documentEle
 setTimeout(function(){ if(window.__hideBoot) window.__hideBoot(); },9000);
 function _pronto(){
   try{
+    if(document.getElementById('__bundler_thumbnail')||document.getElementById('__bundler_loading')) return false;
     var m=document.body;
     if(!m) return false;
     var tx=(m.textContent||'').replace(/\s+/g,'');
